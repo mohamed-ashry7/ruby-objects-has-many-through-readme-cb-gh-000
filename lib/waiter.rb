@@ -17,7 +17,7 @@ class Waiter
   end
 
   def meals
-    @meals
+    Meal.all.select {|m| m if m.customer ==self }
   end
   def
 end
