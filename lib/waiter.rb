@@ -19,5 +19,5 @@ class Waiter
   def meals
     @meals
   end
-  def 
+  def
 end
