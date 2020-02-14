@@ -24,5 +24,5 @@ class Customer
 
   def waiters
     self.meals.select {|m| m.waiter}
-  end 
+  end
 end
