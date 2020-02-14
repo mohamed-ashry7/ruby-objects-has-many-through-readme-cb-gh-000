@@ -16,7 +16,6 @@ class Customer
 
   def new_meal(waiter, total , tip )
      meals << Meal.new(self , waiter , total , tip )
-
   end
 
   def meals
